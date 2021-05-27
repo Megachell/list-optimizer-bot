@@ -1,5 +1,5 @@
 # ListOptimizer - Telegram Bot
-The bot allows user to automatically optimize their shopping list. 
+The bot allows the user to optimize their shopping list automatically. 
 The bot contains a map of the store and automatically sorts the list to optimize users’ path through the store. The path is constructed using dynamic programming so it is guranteed to be the shortest.
 
 Positions are automatically categorized and assigned to departments using word embeddings. This project uses Navec, which is Russian language based. In order to make categorization work in other languages, other word embeddings should be used.
